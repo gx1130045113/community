@@ -24,7 +24,7 @@ public class DiscussPostController {
 
     @GetMapping("/email")
     public Boolean send(){
-        mailService.sendSimpleEmail("测试","测试的内容","1130045113@qq.com");
+        mailService.sendSimpleEmail("测试","测试的内容","发送给谁的邮箱");
         return true;
     }
 
